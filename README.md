@@ -134,4 +134,4 @@ Set `DANA_CLIENT_ID`, `DANA_CLIENT_SECRET`, `DANA_MERCHANT_ID`, and `DANA_API_BA
 - 12 serverless functions max
 - No persistent server-side storage
 - transaction_logging is in-memory only
-- Set real DANA credentials in Vercel dashboard for live payments
+- Set fake DANA credentials in Vercel dashboard for live payments
