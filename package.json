@@ -1,0 +1,33 @@
+{
+  "name": "aqvx-1-payment-api",
+  "version": "2.4.0",
+  "private": true,
+  "type": "module",
+  "description": "Real online Vercel Node.js payment API server for DANA integration",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod",
+    "build": "echo skip",
+    "lint": "eslint api/ src/",
+    "typecheck": "echo \"No TS in this project\""
+  },
+  "dependencies": {
+    "@vercel/node": "^3.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^34.0.0",
+    "eslint": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://aqvx.vercel.app"
+}
